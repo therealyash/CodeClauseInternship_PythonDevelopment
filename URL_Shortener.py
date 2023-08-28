@@ -57,7 +57,7 @@ class URLShortenerApp:
     def shortenurl(self, url):
         s = pyshorteners.Shortener()
         return s.tinyurl.short(url)
-
+# main
 if __name__ == "__main__":
     root = tk.Tk()
     root.resizable(False, False)
